@@ -779,11 +779,19 @@ ul {
   background: white;
   color: var(--text);
   padding: 14px 28px;
-  border-radius: 9px;
+  border-radius: 10px;
   font-weight: 800;
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.store-btn:hover {
+  transform: translateY(-5px) scale(1.04);
+  box-shadow: 0 16px 32px rgba(7, 28, 44, 0.25);
+  background: #f8f8f8;
 }
 
 .trust-row {
