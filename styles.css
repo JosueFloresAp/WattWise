@@ -45,7 +45,7 @@ ul {
 }
 
 .container {
-  width: min(1060px, 92%);
+  width: min(1280px, 92%);
   margin: 0 auto;
 }
 
@@ -657,7 +657,7 @@ ul {
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 420px));
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
   justify-content: center;
   gap: 35px;
   margin-top: 60px;
@@ -743,7 +743,7 @@ ul {
 }
 
 .cta-layout {
-  min-height: 395px;
+  min-height: 450px;
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
   align-items: end;
@@ -1034,6 +1034,7 @@ ul {
   .info-card {
     padding: 28px;
   }
+  
 }
 
 /* Ajustes finales para que se parezca más al mockup de referencia */
